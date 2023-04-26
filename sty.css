@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    background-color: #f9f5ed;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Lilita One', cursive;
+font-family: 'Poppins', sans-serif;
+}
+nav{
+    height: 15vh;
+    padding: 20px 10%
+    
+}
+nav ul{
+    display: flex;
+    gap: 50px;
+    text-decoration: none;
+    font-weight: 700;
+    padding-top: 18px;
+
+    
+
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.tag1{
+    font-size: 18px;
+    text-decoration: none;
+}
+.tag2{
+    font-size: 18px;
+    text-decoration: none;
+}
+.tag3{
+    font-size: 18px;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    align-items: center;
+    
+
+}
+.main-left-area{
+    width: 40%;
+    /* align-items: center;
+    justify-content: center; */
+    padding-left: 10%;
+    padding-top:10%;
+
+}
+.main-left-area h1{
+    font-size: 60px;
+}
+.main-left-area p{
+    font-size: 20px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+.main-left-area button{
+    padding: 7px 14px;
+    border-radius: 9px;
+    color: white;
+    background-color: rgb(4, 138, 4);
+}
+button:hover{
+    background-color: white;
+    color: black;
+    font-weight: 600;
+}
+.main-right-area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+}
+.main-right-area-img1{
+     margin-top: 9%;
+     margin-bottom: 10px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+
+
+    
+}
+    
+
+
+
+   
+
+
+   
+
+
